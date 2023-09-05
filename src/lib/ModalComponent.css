@@ -1,0 +1,29 @@
+.modal-container {
+  border: 1px solid #45a935;
+  border-radius: 5px;
+  background-color: white;
+  width: 300px;
+  height: 130px;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.modal-title {
+  margin: 20px auto;
+}
+
+.close-btn {
+  width: 70px;
+  padding: 2px;
+  text-align: center !important;
+  border: 2px solid white !important;
+  border-radius: 15px;
+  background-color: #45a935;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
