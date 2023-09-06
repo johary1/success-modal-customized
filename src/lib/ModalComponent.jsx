@@ -3,12 +3,12 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import "./ModalComponent.css";
 
-const MyModal = ({ show, handleClose }) => {
+const MyModal = ({ show, handleClose, text }) => {
   return (
     <div>
       <Modal className="modal-container" show={show} onHide={handleClose}>
         <Modal.Body className="modal-title">
-          <p>A new employee was successfully added!</p>
+          <p>{text}</p>
         </Modal.Body>
         <Modal.Footer>
           <Button
