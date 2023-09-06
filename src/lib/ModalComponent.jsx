@@ -3,7 +3,7 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import "./ModalComponent.css";
 
-const MyModal = ({ show, handleClose, text }) => {
+const CustomModal = ({ show, handleClose, text }) => {
   return (
     <div>
       <Modal className="modal-container" show={show} onHide={handleClose}>
@@ -24,4 +24,4 @@ const MyModal = ({ show, handleClose, text }) => {
   );
 };
 
-export default MyModal;
+export default CustomModal;

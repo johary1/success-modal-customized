@@ -1,5 +1,5 @@
 import { useState } from "react";
-import MyModal from "./lib";
+import CustomModal from "./lib";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <button onClick={handleShowModal}>Show Modal</button>
-        <MyModal show={showModal} handleClose={handleCloseModal} />
+        <CustomModal show={showModal} handleClose={handleCloseModal} />
       </header>
     </div>
   );

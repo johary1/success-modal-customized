@@ -1,3 +1,3 @@
-import MyModal from "./ModalComponent";
+import CustomModal from "./ModalComponent";
 
-export default MyModal ;
+export default CustomModal ;

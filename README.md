@@ -1,6 +1,6 @@
 # My Modal Component
 
-A reusable modal component for React.
+A reusable modal component made with React + Vite.
 
 ## Installation
 
@@ -10,20 +10,20 @@ npm install success-modal-customized
 
 ## Usage
 
-To use the `ModalComponent` in your React application, follow these steps:
+To use the `CustomModal` in your React application, follow these steps:
 
 ### Importing the ModalComponent
 
-First, import the `ModalComponent` into your React component file:
+First, import the `CustomModal` into your React component file:
 
 ```javascript
 import React, { useState } from "react";
-import { ModalComponent } from "success-modal-customized";
+import { CustomModal } from "success-modal-customized";
 ```
 
 ### Using the ModalComponent
 
-Now, you can use the `ModalComponent` in your component's render method. Here's an example of how to use it:
+Now, you can use the `CustomModal` in your component's render method. Here's an example of how to use it:
 
 ```javascript
 const YourComponent = () => {
@@ -40,7 +40,11 @@ const YourComponent = () => {
   return (
     <div>
       <button onClick={handleShowModal}>Show Modal</button>
-      <ModalComponent show={showModal} handleClose={handleCloseModal} />
+      <CustomModal
+        show={showModal}
+        handleClose={handleCloseModal}
+        text="your custom content"
+      />
     </div>
   );
 };
