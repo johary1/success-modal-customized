@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Customizable Modal Component Example</h1>
         <button onClick={handleShowModal}>Show Modal</button>
         <MyModal show={showModal} handleClose={handleCloseModal} />
       </header>
