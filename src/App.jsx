@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <button onClick={handleShowModal}>Show Modal</button>
-        <CustomModal show={showModal} handleClose={handleCloseModal} />
+        <CustomModal show={showModal} handleClose={handleCloseModal} text="Any custom text" />
       </header>
     </div>
   );
