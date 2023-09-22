@@ -2,6 +2,11 @@
 
 A reusable modal component made with React + Vite.
 
+## Prerequisites
+
+- Node.js >= 16.0.0
+- React >= 18.0.0
+
 ## Installation
 
 ```bash
